@@ -8,3 +8,7 @@ Agent has to take an action according to the state of the grid. 2d enum array
 Action Space:
 Agent can either move Up, Left, Down, or Right
   penalty for making an illegal move
+
+The grid is 30*20, each grid space is either empty or filled.
+This creates a state space of 1200 possibilities (30*20*2)
+Q-Learning is a great option.
